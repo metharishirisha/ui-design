@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
 
-## Project info
+# 💻 UI Design Project
 
-**URL**: https://lovable.dev/projects/0d3756a7-25bd-4e2a-9e8d-379de70bf394
+This is a fully responsive and modern UI design built using **React**, **TypeScript**, **Tailwind CSS**, and **Vite**. The project demonstrates clean design practices, component-based architecture, and a developer-friendly codebase.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🔗 Live Demo
 
-**Use Lovable**
+🌐 **Vercel Deployment:** [https://ui-design-blond-ten.vercel.app](https://ui-design-blond-ten.vercel.app)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0d3756a7-25bd-4e2a-9e8d-379de70bf394) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Tech Stack
 
-**Use your preferred IDE**
+- **React** – JavaScript library for building user interfaces
+- **TypeScript** – Superset of JavaScript with type safety
+- **Tailwind CSS** – Utility-first CSS framework
+- **shadcn/ui** – Accessible and customizable UI components
+- **Vite** – Fast and modern development environment
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Project Structure
 
-Follow these steps:
+project-root/
+├── public/ # Static assets
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page components
+│ ├── styles/ # Tailwind and global styles
+│ └── main.tsx # Entry point
+├── index.html # HTML entry
+├── package.json # Project metadata and scripts
+├── tailwind.config.ts # Tailwind configuration
+└── vite.config.ts # Vite configuration
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+yaml
+Copy
+Edit
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Getting Started Locally
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+To run this project on your local machine:
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm
+
+### Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone <YOUR_GIT_URL>
+   cd <project-directory>
+Install Dependencies
+
+bash
+Copy
+Edit
+npm install
+Start the Development Server
+
+bash
+Copy
+Edit
 npm run dev
-```
+Visit http://localhost:8080 in your browser.
 
-**Edit a file directly in GitHub**
+✅ Features
+Responsive design for all screen sizes
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Component-based architecture
 
-**Use GitHub Codespaces**
+Clean, semantic HTML
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Organized and scalable codebase
 
-## What technologies are used for this project?
+Fast build and live reload via Vite
 
-This project is built with:
+📦 Deployment
+This project is deployed on Vercel:
+🔗 https://ui-design-blond-ten.vercel.app
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+You can redeploy or connect a custom domain via your Vercel dashboard.
 
-## How can I deploy this project?
+📄 License
+This project is submitted as part of a frontend assignment. All rights reserved to the author unless otherwise specified.
 
-Simply open [Lovable](https://lovable.dev/projects/0d3756a7-25bd-4e2a-9e8d-379de70bf394) and click on Share -> Publish.
+👤 Author
+methari shirisha
 
-## Can I connect a custom domain to my Lovable project?
+github : https://github.com/metharishirisha/ui-design
+email : metharishirisha7@gmailcom
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+
+
